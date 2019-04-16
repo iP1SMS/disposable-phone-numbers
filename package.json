@@ -1,5 +1,5 @@
 {
-  "name": "disposable-phone-numbers",
+  "name": "@ip1sms/disposable-phone-numbers",
   "version": "2.0.0",
   "description": "A list of disposable phone numbers. You can use it to detect or block disposable phone numbers in your signup process.",
   "main": "./number-list.json",
