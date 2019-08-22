@@ -26,10 +26,7 @@ fs.readFile('number-list.json', 'utf8', function(err, existingContent) {
         let newNumbers = JSON.parse(content)
 
         for(let key in newNumbers){
-            
-            if(!existingNumbers[key]){
                 existingNumbers[key] = getDateString()
-            }
         }
 
         // Order keys
